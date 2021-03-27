@@ -24,7 +24,7 @@ As part of the project the following steps will be performed:
 
 ### **I. Create a new AutoML run**
 
-#### “Registered Datasets” in ML Studio shows "Bankmarketing" dataset available
+#### - “Registered Datasets” in ML Studio shows "Bankmarketing" dataset available
 #### The experiment is shown as completed.
 
 ### **II. Deploy a model and consume a model endpoint via an HTTP API**
