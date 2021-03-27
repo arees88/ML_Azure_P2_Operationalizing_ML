@@ -10,12 +10,21 @@ The data used for the project is the **Bank Marketing** dataset.
 
 The project will also include the creation, publishing and consuming of a machine learmning pipeline.
 
+Both the Azure ML Studio and the Python SDK will be used in this project. 
+You will start with authentication and then run an Automated ML experiment to deploy the best model.
+Next, you will enable Application Insight to review important information about the service when consuming the model.
+And finally, you will create, publish, and interact with a pipeline. 
+Once all of that is complete, you will create a short screencast and a README to demonstrate all your hard work.
+
+
 ### Dataset
 
 The data used for the project is the **Bank Marketing** dataset. 
 
 ## **Architectural Diagram**
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
+
+![image](https://user-images.githubusercontent.com/60096624/112736432-6e8cb880-8f4a-11eb-83cc-eb155493e099.png)
 
 ## **Key Steps**
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
