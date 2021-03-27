@@ -22,12 +22,12 @@ As part of the project the following steps will be performed:
 7. Create and publish a pipeline
 8. Documentation
 
-### Create a new AutoML run
+### **I. Create a new AutoML run**
 
 #### “Registered Datasets” in ML Studio shows "Bankmarketing" dataset available
 #### The experiment is shown as completed.
 
-### Deploy a model and consume a model endpoint via an HTTP API
+### **II. Deploy a model and consume a model endpoint via an HTTP API**
 
 #### Endpoints section in Azure ML Studio, showing that “Application Insights enabled” says “true”.
 #### Logging is enabled by running the provided logs.py script
@@ -35,17 +35,17 @@ As part of the project the following steps will be performed:
 #### endpoint.py script runs against the API producing JSON output from the model.
 #### Apache Benchmark (ab) runs against the HTTP API using authentication keys to retrieve performance results. (optional)
 
-### Create and publish a pipeline
+### **III. Create and publish a pipeline**
 
 #### The pipeline section of Azure ML studio, showing that the pipeline has been created
 #### The Bankmarketing dataset with the AutoML module
 #### The “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE
 
-### Configure a pipeline with the Python SDK
+### **IV. Configure a pipeline with the Python SDK**
 
 #### A screenshot of the Jupyter Notebook is included in the submission showing the “Use RunDetails Widget” with the step runs
 
-### Use a REST endpoint to interact with a Pipeline
+### **V. Use a REST endpoint to interact with a Pipeline**
 
 #### ML studio showing the pipeline endpoint as Active
 #### ML studio showing the scheduled run
