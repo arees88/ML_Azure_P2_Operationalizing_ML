@@ -13,14 +13,14 @@
 
 As part of the project the following steps will be performed:
 
-**1.** Authentication
-**2.** Automated ML Experiment
-**3.** Deploy the best model
-**4.** Enable logging
-**5.** Swagger Documentation
-**6.** Consume model endpoints
-**7.** Create and publish a pipeline
-**8.** Documentation
+1. Authentication
+2. Automated ML Experiment
+3. Deploy the best model
+4. Enable logging
+5. Swagger Documentation
+6. Consume model endpoints
+7. Create and publish a pipeline
+8. Documentation
 
 ### **I. Create a new AutoML run**
 
