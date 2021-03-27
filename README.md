@@ -21,6 +21,13 @@ Once all of that is complete, you will create a short screencast and a README to
 
 The data used for the project is the **Bank Marketing** dataset. 
 
+The objective of the project is to use the data to predict if a person will subscribe to the long-term deposit with the bank or not.
+
+The dataset used for the project contains almost 33 thousand of records with 20 features.
+The snapshot of the dataset is below: 
+
+![image](https://user-images.githubusercontent.com/60096624/109403410-5a5a9900-7955-11eb-9812-c3806b9a8ffe.png)
+
 ## **Architectural Diagram**
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
 
