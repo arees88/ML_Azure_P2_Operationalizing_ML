@@ -53,8 +53,15 @@ As part of the project the following steps will be performed:
 ## **Screen Recording**
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
-Video is available at the following link:  <link>
+This section includes the link to the project screencast. 
+The screencast shows the entire process of the working ML application, including a demonstration of:
 
+- Working deployed ML model endpoint.
+- Deployed Pipeline
+- Available AutoML Model
+- Successful API requests to the endpoint with a JSON payload
+
+Video is available at the following link:  <link>
 
 ## **Standout Suggestions**
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
