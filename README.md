@@ -26,11 +26,6 @@ The data used for the project is the **Bank Marketing** dataset.
 
 ![image](https://user-images.githubusercontent.com/60096624/112736915-53bc4300-8f4e-11eb-8637-06e2bb16b920.png)
 
-![image](https://user-images.githubusercontent.com/60096624/112736432-6e8cb880-8f4a-11eb-83cc-eb155493e099.png)
-
-![image](https://user-images.githubusercontent.com/60096624/112736792-3c308a80-8f4d-11eb-9673-d4409212bd7c.png)
-
-
 ## **Key Steps**
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
 
