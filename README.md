@@ -24,31 +24,31 @@ As part of the project the following steps will be performed:
 
 ### **I. Create a new AutoML run**
 
-#### “Registered Datasets” in ML Studio shows "Bankmarketing" dataset available
-#### The experiment is shown as completed.
+- “Registered Datasets” in ML Studio shows "Bankmarketing" dataset available
+- The experiment is shown as completed.
 
 ### **II. Deploy a model and consume a model endpoint via an HTTP API**
 
-#### Endpoints section in Azure ML Studio, showing that “Application Insights enabled” says “true”.
-#### Logging is enabled by running the provided logs.py script
-#### Swagger runs on localhost showing the HTTP API methods and responses for the model
-#### endpoint.py script runs against the API producing JSON output from the model.
-#### Apache Benchmark (ab) runs against the HTTP API using authentication keys to retrieve performance results. (optional)
+- Endpoints section in Azure ML Studio, showing that “Application Insights enabled” says “true”.
+- Logging is enabled by running the provided logs.py script
+- Swagger runs on localhost showing the HTTP API methods and responses for the model
+- endpoint.py script runs against the API producing JSON output from the model.
+- Apache Benchmark (ab) runs against the HTTP API using authentication keys to retrieve performance results. (optional)
 
 ### **III. Create and publish a pipeline**
 
-#### The pipeline section of Azure ML studio, showing that the pipeline has been created
-#### The Bankmarketing dataset with the AutoML module
-#### The “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE
+- The pipeline section of Azure ML studio, showing that the pipeline has been created
+- The Bankmarketing dataset with the AutoML module
+- The “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE
 
 ### **IV. Configure a pipeline with the Python SDK**
 
-#### A screenshot of the Jupyter Notebook is included in the submission showing the “Use RunDetails Widget” with the step runs
+- A screenshot of the Jupyter Notebook is included in the submission showing the “Use RunDetails Widget” with the step runs
 
 ### **V. Use a REST endpoint to interact with a Pipeline**
 
-#### ML studio showing the pipeline endpoint as Active
-#### ML studio showing the scheduled run
+- ML studio showing the pipeline endpoint as Active
+- ML studio showing the scheduled run
 
 ## **Screen Recording**
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
