@@ -6,7 +6,8 @@
 *TODO:* Write an overview to your project.
 
 This project uses Microsoft Azure Machine Learning functionality to configure, deploy and consume a cloud-based machine learning production model. 
-This will also include the creation, publishing and consuming of a machine learmning pipeline.
+
+The project will also include the creation, publishing and consuming of a machine learmning pipeline.
 
 ### Dataset
 
