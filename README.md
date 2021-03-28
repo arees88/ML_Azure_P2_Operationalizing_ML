@@ -5,14 +5,14 @@
 
 *TODO:* Write an overview to your project.
 
-This project uses Microsoft Azure Machine Learning to configure, deploy and consume a cloud-based machine learning production model.
+This project uses **Microsoft Azure Machine Learning** to configure, deploy and consume a cloud-based machine learning production model.
 The project will also include the creation, publishing and consuming of a machine learmning pipeline.
-Both the Azure ML Studio and the Python SDK are used in the project. 
+Both the **Azure ML Studio** and the **Python SDK** are used in the project. 
 
 ### Dataset
 
 The data used for the project is the **Bank Marketing** dataset. 
-The model built in this project will use the data to predict if a person will subscribe to the long-term deposit with the bank or not.
+The model built as part of this project will use the data to predict if a person will subscribe to the long-term deposit with the bank or not.
 
 The dataset used for the project contains almost 33 thousand of records with 20 features.
 The snapshot of the dataset is below: 
