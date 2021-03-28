@@ -29,8 +29,6 @@ Next we run an Automated ML experiment to deploy the best model.
 Next, we will enable Application Insight to review important information about the service when consuming the model.
 And finally, we will create, publish, and interact with a pipeline. 
 
-Please note, I am using the lab provided by Udacity and hence the authentication has already been performed on my behalf as I am not authorized to create a security principal.
-
 Once all the steps are completed, a short screencast will be created to document all the steps performed.
 
 ![image](https://user-images.githubusercontent.com/60096624/112736915-53bc4300-8f4e-11eb-8637-06e2bb16b920.png)
@@ -48,6 +46,8 @@ The following steps will be performed as part of the project:
 6.  Consume model endpoints
 7.  Create and publish a pipeline
 8.  Documentation
+
+Please note, I am using the lab provided by Udacity and hence the authentication has already been performed on my behalf as I am not authorized to create a security principal.
 
 ### **I. Create a new AutoML run**
 
