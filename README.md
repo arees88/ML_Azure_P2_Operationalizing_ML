@@ -24,9 +24,12 @@ The snapshot of the dataset is below:
 
 Below is the architectual diagram of the project showing the flow of operations from start to finish.
 
-We will start with authentication and then run an Automated ML experiment to deploy the best model.
+The project starts with authentication. 
+Next we run an Automated ML experiment to deploy the best model.
 Next, we will enable Application Insight to review important information about the service when consuming the model.
 And finally, we will create, publish, and interact with a pipeline. 
+
+Please note, I am using the lab provided by Udacity and hence the authentication has already been performed on my behalf as I am not authorized to create a security principal.
 
 Once all the steps are completed, a short screencast will be created to document all the steps performed.
 
