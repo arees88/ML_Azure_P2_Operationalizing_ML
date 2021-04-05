@@ -6,7 +6,7 @@
 *TODO:* Write an overview to your project.
 
 This project uses **Microsoft Azure Machine Learning** to configure, deploy and consume a cloud-based machine learning production model.
-The project will also include the creation, publishing and consuming of a machine learmning pipeline.
+The project will also include the creation, publishing and consuming of a machine learning pipeline.
 
 Both the **Azure ML Studio** and the **Python SDK** are used in the project. 
 
