@@ -88,7 +88,7 @@ The screencast shows the entire process of the working ML application, including
 - Available AutoML Model
 - Successful API requests to the endpoint with a JSON payload
 
-Video is available at the following link:  <link>
+Video is available at the following link:  https://www.youtube.com/watch?v=aglqDK0D_nA
 
 ## **Standout Suggestions**
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
