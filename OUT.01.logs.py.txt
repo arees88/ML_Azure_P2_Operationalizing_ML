@@ -1,0 +1,57 @@
+================================================================================
+START:    Mon, Apr  5, 2021  6:49:04 PM
+PWD:      /c/Users/demouser/Desktop/nd00333_AZMLND_C2-master/starter_files
+CMD:      python logs.py
+================================================================================
+
+WARNING - Note, we have launched a browser for you to login. For old experience with device code, use "az login --use-device-code"
+Performing interactive authentication. Please follow the instructions on the terminal.
+You have logged in. Now let us find all the subscriptions to which you have access...
+Interactive authentication successfully completed.
+2021-04-05T18:40:34,679934500+00:00 - gunicorn/run 
+2021-04-05T18:40:34,680078600+00:00 - iot-server/run 
+2021-04-05T18:40:34,696878600+00:00 - rsyslog/run 
+2021-04-05T18:40:34,723503800+00:00 - nginx/run 
+/usr/sbin/nginx: /azureml-envs/azureml_3a1fbc0f597c97eecae7cbcc09873ce6/lib/libcrypto.so.1.0.0: no version information available (required by /usr/sbin/nginx)
+/usr/sbin/nginx: /azureml-envs/azureml_3a1fbc0f597c97eecae7cbcc09873ce6/lib/libcrypto.so.1.0.0: no version information available (required by /usr/sbin/nginx)
+/usr/sbin/nginx: /azureml-envs/azureml_3a1fbc0f597c97eecae7cbcc09873ce6/lib/libssl.so.1.0.0: no version information available (required by /usr/sbin/nginx)
+/usr/sbin/nginx: /azureml-envs/azureml_3a1fbc0f597c97eecae7cbcc09873ce6/lib/libssl.so.1.0.0: no version information available (required by /usr/sbin/nginx)
+/usr/sbin/nginx: /azureml-envs/azureml_3a1fbc0f597c97eecae7cbcc09873ce6/lib/libssl.so.1.0.0: no version information available (required by /usr/sbin/nginx)
+rsyslogd: /azureml-envs/azureml_3a1fbc0f597c97eecae7cbcc09873ce6/lib/libuuid.so.1: no version information available (required by rsyslogd)
+EdgeHubConnectionString and IOTEDGE_IOTHUBHOSTNAME are not set. Exiting...
+2021-04-05T18:40:36,231360600+00:00 - iot-server/finish 1 0
+2021-04-05T18:40:36,239273800+00:00 - Exit code 1 is normal. Not restarting iot-server.
+Starting gunicorn 19.9.0
+Listening at: http://127.0.0.1:31311 (67)
+Using worker: sync
+worker timeout is set to 300
+Booting worker with pid: 96
+SPARK_HOME not set. Skipping PySpark Initialization.
+Generating new fontManager, this may take some time...
+Initializing logger
+2021-04-05 18:40:40,875 | root | INFO | Starting up app insights client
+2021-04-05 18:40:40,876 | root | INFO | Starting up request id generator
+2021-04-05 18:40:40,876 | root | INFO | Starting up app insight hooks
+2021-04-05 18:40:40,877 | root | INFO | Invoking user's init function
+2021-04-05 18:40:49,599 | azureml.core | WARNING | Failure while loading azureml_run_type_providers. Failed to load entrypoint automl = azureml.train.automl.run:AutoMLRun._from_run_dto with exception cannot import name 'RunType'.
+Failure while loading azureml_run_type_providers. Failed to load entrypoint automl = azureml.train.automl.run:AutoMLRun._from_run_dto with exception cannot import name 'RunType'.
+2021-04-05 18:40:50,379 | root | INFO | Users's init has completed successfully
+2021-04-05 18:40:50,419 | root | INFO | Skipping middleware: dbg_model_info as it's not enabled.
+2021-04-05 18:40:50,420 | root | INFO | Skipping middleware: dbg_resource_usage as it's not enabled.
+2021-04-05 18:40:50,423 | root | INFO | Scoring timeout is found from os.environ: 60000 ms
+2021-04-05 18:40:53,857 | root | INFO | 200
+127.0.0.1 - - [05/Apr/2021:18:40:53 +0000] "GET /swagger.json HTTP/1.0" 200 3248 "-" "Go-http-client/1.1"
+2021-04-05 18:44:59,453 | root | INFO | 200
+127.0.0.1 - - [05/Apr/2021:18:44:59 +0000] "GET /swagger.json HTTP/1.0" 200 3248 "-" "Go-http-client/1.1"
+2021-04-05 18:45:01,221 | root | INFO | 200
+127.0.0.1 - - [05/Apr/2021:18:45:01 +0000] "GET /swagger.json HTTP/1.0" 200 3248 "-" "Go-http-client/1.1"
+2021-04-05 18:52:42,694 | root | INFO | 200
+127.0.0.1 - - [05/Apr/2021:18:52:42 +0000] "GET /swagger.json HTTP/1.0" 200 3248 "-" "Go-http-client/1.1"
+2021-04-05 18:52:47,392 | root | INFO | 200
+127.0.0.1 - - [05/Apr/2021:18:52:47 +0000] "GET /swagger.json HTTP/1.0" 200 3248 "-" "Go-http-client/1.1"
+
+
+================================================================================
+END:      Mon, Apr  5, 2021  6:52:49 PM
+================================================================================
+

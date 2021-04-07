@@ -1,0 +1,71 @@
+================================================================================
+START:    Mon, Apr  5, 2021  7:01:47 PM
+PWD:      /c/Users/demouser/Desktop/nd00333_AZMLND_C2-master/starter_files/swagger
+CMD:      bash swagger.sh
+================================================================================
+
+Using default tag: latest
+latest: Pulling from swaggerapi/swagger-ui
+9aae54b2144e: Pulling fs layer
+5df810e1c460: Pulling fs layer
+a5f0adaddd54: Pulling fs layer
+e6a4c36d7c0e: Pulling fs layer
+345aee38d353: Pulling fs layer
+29d3f97df6fd: Pulling fs layer
+0950fc9d9364: Pulling fs layer
+ca3e59c92b58: Pulling fs layer
+707b0cf8e7fc: Pulling fs layer
+1e23e54f2678: Pulling fs layer
+25dd8da05791: Pulling fs layer
+ce3fc08bb95f: Pulling fs layer
+e6a4c36d7c0e: Waiting
+345aee38d353: Waiting
+29d3f97df6fd: Waiting
+0950fc9d9364: Waiting
+ca3e59c92b58: Waiting
+1e23e54f2678: Waiting
+25dd8da05791: Waiting
+707b0cf8e7fc: Waiting
+ce3fc08bb95f: Waiting
+a5f0adaddd54: Verifying Checksum
+a5f0adaddd54: Download complete
+e6a4c36d7c0e: Verifying Checksum
+e6a4c36d7c0e: Download complete
+9aae54b2144e: Verifying Checksum
+9aae54b2144e: Download complete
+5df810e1c460: Verifying Checksum
+5df810e1c460: Download complete
+345aee38d353: Verifying Checksum
+345aee38d353: Download complete
+29d3f97df6fd: Verifying Checksum
+29d3f97df6fd: Download complete
+ca3e59c92b58: Verifying Checksum
+ca3e59c92b58: Download complete
+9aae54b2144e: Pull complete
+1e23e54f2678: Verifying Checksum
+1e23e54f2678: Download complete
+25dd8da05791: Download complete
+707b0cf8e7fc: Verifying Checksum
+707b0cf8e7fc: Download complete
+0950fc9d9364: Download complete
+ce3fc08bb95f: Verifying Checksum
+ce3fc08bb95f: Download complete
+5df810e1c460: Pull complete
+a5f0adaddd54: Pull complete
+e6a4c36d7c0e: Pull complete
+345aee38d353: Pull complete
+29d3f97df6fd: Pull complete
+0950fc9d9364: Pull complete
+ca3e59c92b58: Pull complete
+707b0cf8e7fc: Pull complete
+1e23e54f2678: Pull complete
+25dd8da05791: Pull complete
+ce3fc08bb95f: Pull complete
+Digest: sha256:521efb48217365effc8bccf69c6f76a86b794a4a4f0e6996aed00bc5ed6a63de
+Status: Downloaded newer image for swaggerapi/swagger-ui:latest
+docker.io/swaggerapi/swagger-ui:latest
+
+================================================================================
+END:      Mon, Apr  5, 2021  7:15:52 PM
+================================================================================
+
