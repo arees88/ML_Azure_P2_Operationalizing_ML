@@ -77,11 +77,16 @@ The steps are performed in Jupyter notebook and include:
 
     ![alt text](screenshots/2.2_Experiment_completed_1.png)
     
+
+    The Best model has been identified as **VotingEnsemble** with **0.947** AUC:
+
+    
     ![alt text](screenshots/2.2_Experiment_completed_2.png)
     
 - **Best model**
 
-    Here are the details of the Best Model which was identified as **VotingEnsemble** with 0.947 AUC:
+    Here are the details of the Models that were included in the AutoML experiment run.
+    The Best model **VotingEnsemble** is first on the list:
 
     
     ![alt text](screenshots/2.3_Best_model_1.png)
