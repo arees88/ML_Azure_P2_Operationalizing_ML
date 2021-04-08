@@ -41,11 +41,14 @@ The following steps will be performed as part of the project:
 7.  Create and publish a pipeline
 8.  Documentation
 
-**Step 1, Authentication**
+**Step 1 - Authentication**
+
 I am using the Lab provided by Udacity and hence the authentication step has already been performed on my behalf. 
 This step requires authorization to create a security principal.
 
 ## **I. Create a new AutoML run**
+
+**Step 2 - Automated ML Experiment**
 
 - **“Registered Datasets” in ML Studio shows "Bankmarketing" dataset available**
 
@@ -69,6 +72,8 @@ This step requires authorization to create a security principal.
 
 ## **II. Deploy a model and consume a model endpoint via an HTTP API**
 
+**Step 3 - Deploy the best model**
+
 - **Deploy the best model**
 
     ![alt text](screenshots/3.1_Best_model_deployment_1.png)
@@ -80,6 +85,8 @@ This step requires authorization to create a security principal.
     ![alt text](screenshots/3.1_Best_model_deployment_4.png)
     
     ![alt text](screenshots/3.1_Best_model_deployment_5.png)
+    
+**Step 4 - Enable logging**
 
 - **Endpoints section in Azure ML Studio, showing that “Application Insights enabled” says “true”**
 
@@ -92,6 +99,8 @@ This step requires authorization to create a security principal.
     ![alt text](screenshots/4.2_Script_run_logs.py_1.png)
     
     ![alt text](screenshots/4.2_Script_run_logs.py_2.png)
+    
+**Step 5 - Swagger Documentation**
 
 - **Swagger runs on localhost showing the HTTP API methods and responses for the model**
 
@@ -104,12 +113,16 @@ This step requires authorization to create a security principal.
     ![alt text](screenshots/5.1_swagger_localhost_3.png)
     
     ![alt text](screenshots/5.1_swagger_localhost_4.png)
+    
+**Step 6 - Consume model endpoints**
 
 - **The endpoint.py script runs against the API producing JSON output from the model**
 
     ![alt text](screenshots/6.1_Script_edit_endpoint.py.png)
     
     ![alt text](screenshots/6.1_Script_run_endpoint.py.png)
+    
+**Step 6 - Benchmark the endpoint using Apache bench**
 
 - **Apache Benchmark (ab) runs against the HTTP API using authentication keys to retrieve performance results. (optional)**
 
@@ -122,6 +135,8 @@ This step requires authorization to create a security principal.
     ![alt text](screenshots/6.2_Script_run_benchmark.sh_2.png)
 
 ## **III. Create and publish a pipeline**
+
+**Step 7 - Create and publish a pipeline**
 
 - **The pipeline section of Azure ML studio, showing that the pipeline has been created**
 
