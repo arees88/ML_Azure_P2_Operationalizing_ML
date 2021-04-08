@@ -44,7 +44,6 @@ The following steps will be performed as part of the project:
 ### **Step 1 - Authentication**
 
 I am using the Lab provided by Udacity and hence the authentication step has already been performed on my behalf. 
-
 This step requires authorization to create a security principal.
 
 ## **Create a new AutoML run**
@@ -53,30 +52,33 @@ This step requires authorization to create a security principal.
 
 In this step, we create an experiment using Automated ML, configure a compute cluster, and use that cluster to run the experiment.
 The steps are performed in Jupyter notebook and include:
-
-    - Create an Experiment in an existing Workspace.
-    - Create or Attach existing AmlCompute to a workspace.
-    - Define data loading in a TabularDataset.
-    - Configure AutoML using AutoMLConfig.
+    - Create an Experiment in an existing Workspace
+    - Create or Attach existing AmlCompute to a workspace
+    - Define data loading in a TabularDataset
+    - Configure AutoML using AutoMLConfig
     - Use AutoMLStep
     - Train the model using AmlCompute
-    - Explore the results.
-
+    - Explore the results
 
 - **“Registered Datasets” in ML Studio shows "Bankmarketing" dataset available**
+
+    After the AutoML experiment has completed we can see that the Bankmarketing Dataset has been created as expected:
 
     ![alt text](screenshots/2.1_Bankmarketing_dataset_available_1.png)
 
     ![alt text](screenshots/2.1_Bankmarketing_dataset_available_2.png)
 
-
 - **The experiment is shown as completed**
+
+The AutoML experiment shows in the Azure ML Studio as completed. It run for 44 minutes and identified the Best model.
 
     ![alt text](screenshots/2.2_Experiment_completed_1.png)
     
     ![alt text](screenshots/2.2_Experiment_completed_2.png)
     
 - **Best model**
+
+Here are the details of the Best Model which was identified as VotingEnsemble with AUC 0.947:
     
     ![alt text](screenshots/2.3_Best_model_1.png)
     
