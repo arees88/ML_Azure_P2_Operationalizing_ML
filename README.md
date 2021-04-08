@@ -41,7 +41,9 @@ The following steps will be performed as part of the project:
 7.  Create and publish a pipeline
 8.  Documentation
 
-Please note, I am using the lab provided by Udacity and hence the authentication has already been performed on my behalf as I am not authorized to create a security principal.
+**Step 1, Authentication**
+I am using the Lab provided by Udacity and hence the authentication step has already been performed on my behalf. 
+This step requires authorization to create a security principal.
 
 ## **I. Create a new AutoML run**
 
