@@ -199,9 +199,15 @@ python serve.py
 
     ![alt text](screenshots/5.1_Script_run_swagger.sh.png)
     
+    Swagger runs on localhost showing the model HTTP API methods:
+    
     ![alt text](screenshots/5.1_swagger_localhost_1.png)
     
+    Model inputs:
+    
     ![alt text](screenshots/5.1_swagger_localhost_2.png)
+    
+    Model responses:
     
     ![alt text](screenshots/5.1_swagger_localhost_3.png)
     
