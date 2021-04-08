@@ -34,10 +34,6 @@ Once all the steps are completed, a short screencast will be created to document
 The following steps will be performed as part of the project:
 
 1.  Authentication
-1.  Automated ML Experiment
-1.  Deploy the best model
-
-1.  Authentication
 2.  Automated ML Experiment
 3.  Deploy the best model
 4.  Enable logging
