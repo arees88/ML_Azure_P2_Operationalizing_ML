@@ -132,7 +132,7 @@ The steps are performed in Jupyter notebook and include:
     
 ### **Step 4 - Enable logging**
 
-Now that the Best model is deployed, we will run Python SDK script to enable the Application Insights and retrieve logs. 
+Once the Best model is deployed we can run Python SDK script to enable the Application Insights and retrieve logs. 
 
 - **Logging is enabled by running the provided logs.py script**
 
@@ -172,9 +172,28 @@ Now that the Best model is deployed, we will run Python SDK script to enable the
     
     ![alt text](screenshots/4.1_Endpoint_Application_Insights_enabled_2.png)
 
-
     
 ### **Step 5 - Swagger Documentation**
+
+In this step we consume the deployed model using Swagger using the following steps:
+
+    - Download the **swagger.json** file
+    - Run the **swagger.sh** and serve.py scripts
+    - Interact with the swagger instance running with the documentation for the HTTP API of the model.
+    - Display the contents of the API for the model
+
+The **swagger.sh** script downloads the latest Swagger container and it will run it on port 85. The script is executed as follows:
+
+```
+bash swagger.sh
+```
+
+The **serve.py** script will start a Python server on port 8000. This script needs to be right next to the downloaded **swagger.json** file.
+It is executed as follows:
+
+```
+python serve.py
+```
 
 - **Swagger runs on localhost showing the HTTP API methods and responses for the model**
 
