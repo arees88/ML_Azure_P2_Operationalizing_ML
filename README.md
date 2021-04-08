@@ -103,7 +103,7 @@ The steps are performed in Jupyter notebook and include:
 
 ### **Step 3 - Deploy the best model**
 
-  In this stem the best model is deployed using the following setup:
+  In this step the best model is deployed using the following setup:
 
   Name:  **model-deploy** <br/>
   Desc:  **Best model deployment** <br/>
@@ -112,9 +112,17 @@ The steps are performed in Jupyter notebook and include:
 
 - **Deploy the best model**
 
+
+    The model deployment configuration:
+
+
     ![alt text](screenshots/3.1_Best_model_deployment_1.png)
     
     ![alt text](screenshots/3.1_Best_model_deployment_2.png)
+    
+
+    The **model-deploy** endpoint has been created:
+
     
     ![alt text](screenshots/3.1_Best_model_deployment_3.png)
     
