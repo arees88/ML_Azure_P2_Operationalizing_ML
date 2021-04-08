@@ -103,12 +103,7 @@ The steps are performed in Jupyter notebook and include:
 
 ### **Step 3 - Deploy the best model**
 
-  In this step the best model is deployed using the following setup:
-
-  Name:  **model-deploy** <br/>
-  Desc:  **Best model deployment** <br/>
-  Compute type:  **Azure Container Instance** <br/>
-  Enable authentication:   **ON**
+  In this step the best model is deployed.
 
 - **Deploy the best model**
 
@@ -118,6 +113,7 @@ The steps are performed in Jupyter notebook and include:
   Desc:  **Best model deployment** <br/>
   Compute type:  **Azure Container Instance** <br/>
   Enable authentication:   **ON**
+  
 
 
     ![alt text](screenshots/3.1_Best_model_deployment_1.png)
