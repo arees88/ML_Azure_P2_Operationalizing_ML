@@ -34,6 +34,10 @@ Once all the steps are completed, a short screencast will be created to document
 The following steps will be performed as part of the project:
 
 1.  Authentication
+1.  Automated ML Experiment
+1.  Deploy the best model
+
+1.  Authentication
 2.  Automated ML Experiment
 3.  Deploy the best model
 4.  Enable logging
@@ -65,8 +69,6 @@ Please note, I am using the lab provided by Udacity and hence the authentication
     
     ![alt text](screenshots/2.3_Best_model_2.png)
     
-
-
 
 ## **II. Deploy a model and consume a model endpoint via an HTTP API**
 
