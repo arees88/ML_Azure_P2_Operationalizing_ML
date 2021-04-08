@@ -136,19 +136,19 @@ Now that the Best model is deployed, we will run Python SDK script to enable the
 
 - **Logging is enabled by running the provided logs.py script**
 
-    The logs.py script needs to be edited to set the deployment name to **model-deploy** and to add code to enable application insights as follows:
+    The **logs.py** script needs to be edited to set the deployment name to **model-deploy** and to add code to enable application insights:
     
     ```
     # Set with the deployment name
     name = "model-deploy"
     . . .
-    
     # Enable application insightS
     service.update(enable_app_insights=True)
-
     ```
 
     ![alt text](screenshots/4.2_Script_edit_logs.py.png)
+    
+    We run the script as follows:
 
     ![alt text](screenshots/4.2_Script_run_logs.py_1.png)
     
@@ -156,7 +156,11 @@ Now that the Best model is deployed, we will run Python SDK script to enable the
 
 - **Endpoints section in Azure ML Studio, showing that “Application Insights enabled” says “true”**
 
+    After the **logs.py** script completed we can see the Application Insights enabled in Azure ML Studio:
+
     ![alt text](screenshots/4.1_Endpoint_Application_Insights_enabled_1.png)
+    
+    Clicking on the URI gives us access to the following Application Insights page: 
     
     ![alt text](screenshots/4.1_Endpoint_Application_Insights_enabled_2.png)
 
