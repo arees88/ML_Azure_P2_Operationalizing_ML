@@ -132,17 +132,21 @@ The steps are performed in Jupyter notebook and include:
     
 ### **Step 4 - Enable logging**
 
-- **Endpoints section in Azure ML Studio, showing that “Application Insights enabled” says “true”**
-
-    ![alt text](screenshots/4.1_Endpoint_Application_Insights_enabled_1.png)
-    
-    ![alt text](screenshots/4.1_Endpoint_Application_Insights_enabled_2.png)
+    ![image](https://user-images.githubusercontent.com/60096624/114091826-0c6c7580-98b1-11eb-8168-f7225bec8b76.png)
 
 - **Logging is enabled by running the provided logs.py script**
 
     ![alt text](screenshots/4.2_Script_run_logs.py_1.png)
     
     ![alt text](screenshots/4.2_Script_run_logs.py_2.png)
+
+- **Endpoints section in Azure ML Studio, showing that “Application Insights enabled” says “true”**
+
+    ![alt text](screenshots/4.1_Endpoint_Application_Insights_enabled_1.png)
+    
+    ![alt text](screenshots/4.1_Endpoint_Application_Insights_enabled_2.png)
+
+
     
 ### **Step 5 - Swagger Documentation**
 
