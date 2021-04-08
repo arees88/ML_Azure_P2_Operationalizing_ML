@@ -49,6 +49,15 @@ The following steps will be performed as part of the project:
 
 Please note, I am using the lab provided by Udacity and hence the authentication has already been performed on my behalf as I am not authorized to create a security principal.
 
+
+# Screenshots - Datasets PNG
+
+![alt text](screenshots/2.1_Bankmarketing_dataset_available_1.png)
+
+![alt text](screenshots/2.1_Bankmarketing_dataset_available_1.png)
+
+
+
 ### **I. Create a new AutoML run**
 
 - “Registered Datasets” in ML Studio shows "Bankmarketing" dataset available
