@@ -230,9 +230,9 @@ The URI can be found in the Details tab of the  **model-deploy** endpoint above 
 
 In this optional step we run the Apache Benchmark ab command against the HTTP API using following steps:
 
-- Make sure the Apache Benchmark command-line tool is installed and available in the path
-- Replace the key and URI in the benchmark.sh script
-- Run the benchmark.sh script
+    - Make sure the Apache Benchmark command-line tool is installed and available in the path
+    - Replace the key and URI in the benchmark.sh script
+    - Run the benchmark.sh script
 
 - **Apache Benchmark (ab) runs against the HTTP API using authentication keys to retrieve performance results. (optional)**
 
@@ -240,7 +240,8 @@ In this optional step we run the Apache Benchmark ab command against the HTTP AP
 
     ![alt text](screenshots/6.2_Apache_Benchmark_ab_available.png)
     
-    Replace the key and URI in the benchmark.sh script
+    Replace the key and URI in the benchmark.sh script.
+    The URI and the key can be found in the Details tab of **model-deploy** endpoint above the Swagger URI.
     
     ![alt text](screenshots/6.2_Script_edit_benchmark.sh.png)
     
