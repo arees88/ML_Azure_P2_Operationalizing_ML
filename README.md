@@ -132,11 +132,23 @@ The steps are performed in Jupyter notebook and include:
     
 ### **Step 4 - Enable logging**
 
-The
-
-    ![alt text](screenshots/4.2_Script_edit_logs.py.png)
+Now that the Best model is deployed, we will run Python SDK script to enable the Application Insights and retrieve logs. 
 
 - **Logging is enabled by running the provided logs.py script**
+
+    The logs.py script needs to be edited to set the deployment name to **model-deploy** and to add code to enable application insights as follows:
+    
+    ```
+    # Set with the deployment name
+    name = "model-deploy"
+    . . .
+    
+    # Enable application insightS
+    service.update(enable_app_insights=True)
+
+    ```
+
+    ![alt text](screenshots/4.2_Script_edit_logs.py.png)
 
     ![alt text](screenshots/4.2_Script_run_logs.py_1.png)
     
