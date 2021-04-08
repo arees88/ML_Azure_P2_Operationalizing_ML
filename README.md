@@ -48,9 +48,9 @@ Please note, I am using the lab provided by Udacity and hence the authentication
 
 - **“Registered Datasets” in ML Studio shows "Bankmarketing" dataset available**
 
-        ![alt text](screenshots/2.1_Bankmarketing_dataset_available_1.png)
+    ![alt text](screenshots/2.1_Bankmarketing_dataset_available_1.png)
 
-        ![alt text](screenshots/2.1_Bankmarketing_dataset_available_2.png)
+    ![alt text](screenshots/2.1_Bankmarketing_dataset_available_2.png)
 
 
 - **The experiment is shown as completed**
