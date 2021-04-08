@@ -55,28 +55,105 @@ Please note, I am using the lab provided by Udacity and hence the authentication
 
 - The experiment is shown as completed.
 
+    ![alt text](screenshots/2.2_Experiment_completed_1.png)
+    
+    ![alt text](screenshots/2.2_Experiment_completed_2.png)
+    
+- Best model
+    
+    ![alt text](screenshots/2.3_Best_model_1.png)
+    
+    ![alt text](screenshots/2.3_Best_model_2.png)
+    
+
+
+
 ### **II. Deploy a model and consume a model endpoint via an HTTP API**
 
+- Deploy the best model
+
+    ![alt text](screenshots/3.1_Best_model_deployment_1.png)
+    
+    ![alt text](screenshots/3.1_Best_model_deployment_2.png)
+    
+    ![alt text](screenshots/3.1_Best_model_deployment_3.png)
+    
+    ![alt text](screenshots/3.1_Best_model_deployment_4.png)
+    
+    ![alt text](screenshots/3.1_Best_model_deployment_5.png)
+
 - Endpoints section in Azure ML Studio, showing that “Application Insights enabled” says “true”.
+
+    ![alt text](screenshots/4.1_Endpoint_Application_Insights_enabled_1.png)
+    
+    ![alt text](screenshots/4.1_Endpoint_Application_Insights_enabled_2.png)
+
 - Logging is enabled by running the provided logs.py script
+
+    ![alt text](screenshots/4.2_Script_run_logs.py_1.png)
+    
+    ![alt text](screenshots/4.2_Script_run_logs.py_2.png)
+
 - Swagger runs on localhost showing the HTTP API methods and responses for the model
+
+    ![alt text](screenshots/5.1_Script_run_swagger.sh.png)
+    
+    ![alt text](screenshots/5.1_swagger_localhost_1.png)
+    
+    ![alt text](screenshots/5.1_swagger_localhost_2.png)
+    
+    ![alt text](screenshots/5.1_swagger_localhost_3.png)
+    
+    ![alt text](screenshots/5.1_swagger_localhost_4.png)
+
 - endpoint.py script runs against the API producing JSON output from the model.
+
+    ![alt text](screenshots/6.1_Script_edit_endpoint.py.png)
+    
+    ![alt text](screenshots/6.1_Script_run_endpoint.py.png)
+
 - Apache Benchmark (ab) runs against the HTTP API using authentication keys to retrieve performance results. (optional)
+
+    ![alt text](screenshots/6.2_Apache_Benchmark_ab_available.png)
+    
+    ![alt text](screenshots/6.2_Script_edit_benchmark.sh.png)
+    
+    ![alt text](screenshots/6.2_Script_run_benchmark.sh_1.png)
+    
+    ![alt text](screenshots/6.2_Script_run_benchmark.sh_2.png)
 
 ### **III. Create and publish a pipeline**
 
 - The pipeline section of Azure ML studio, showing that the pipeline has been created
+
+    ![alt text](screenshots/7.1_Azure_ML_Studio_Pipeline_created.png)
+    
 - The Bankmarketing dataset with the AutoML module
+
+    ![alt text](screenshots/7.3_Bankmarketing_dataset_with_AutoML_module.png)
+
 - The “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE
+
+    ![alt text](screenshots/7.4_Published_Pipeline_overview_REST_endpoint_ACTIVE.png)
 
 ### **IV. Configure a pipeline with the Python SDK**
 
 - A screenshot of the Jupyter Notebook is included in the submission showing the “Use RunDetails Widget” with the step runs
 
+    ![alt text](screenshots/7.5_Jupyter_Notebook_RunDetails_Widget.png)
+
 ### **V. Use a REST endpoint to interact with a Pipeline**
 
 - ML studio showing the pipeline endpoint as Active
+
+    ![alt text](screenshots/7.2_Azure_ML_Studio_Pipeline_Endpoint_Active.png)
+
 - ML studio showing the scheduled run
+
+    ![alt text](screenshots/7.6_Jupyter_Notebook_Submitted_pipeline_run.png)
+    
+    ![alt text](screenshots/7.6_Azure_ML_Studio_Pipeline_run_overview.png)
+
 
 ## **Screen Recording**
 
