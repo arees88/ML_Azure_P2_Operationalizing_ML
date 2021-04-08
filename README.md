@@ -103,9 +103,11 @@ The steps are performed in Jupyter notebook and include:
 
 ### **Step 3 - Deploy the best model**
 
+  In this step the best model is deployed.
+
 - **Deploy the best model**
 
-  In this step the best model is deployed using the following configuration:
+  The best model is deployed using the following configuration:
     
   Name:  **model-deploy** <br/>
   Desc:  **Best model deployment** <br/>
