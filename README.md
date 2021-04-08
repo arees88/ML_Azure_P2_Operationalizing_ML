@@ -132,7 +132,9 @@ The steps are performed in Jupyter notebook and include:
     
 ### **Step 4 - Enable logging**
 
-    ![image](https://user-images.githubusercontent.com/60096624/114091826-0c6c7580-98b1-11eb-8168-f7225bec8b76.png)
+The
+
+    ![alt text](screenshots/4.2_Script_edit_logs.py.png)
 
 - **Logging is enabled by running the provided logs.py script**
 
