@@ -308,7 +308,10 @@ The screencast shows the entire process of the working ML application, including
 
 Video is available at the following link:  https://www.youtube.com/watch?v=aglqDK0D_nA
 
-## **Standout Suggestions**
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+## **Future Work Suggestions**
 
+Here are some suggestions how to improve the project in the future:
 
+- Increase AutoML run duration which would allow more models to be included in the experiment
+- Try to use a larger dataset as input to the model training making sure that data is more balanced
+- Try using different parameter for the experiment such as number of folds for Cross Validation. 
