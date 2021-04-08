@@ -148,7 +148,13 @@ Now that the Best model is deployed, we will run Python SDK script to enable the
 
     ![alt text](screenshots/4.2_Script_edit_logs.py.png)
     
-    We run the script as follows:
+    We run the **logs.py** script as follows:
+    
+    ```
+    python logs.py
+    ```
+    
+    Full output of the above command is in the following file **OUT.01.logs.py.txt** attachet to the project.
 
     ![alt text](screenshots/4.2_Script_run_logs.py_1.png)
     
