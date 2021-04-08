@@ -156,7 +156,7 @@ Once the Best model is deployed we can run Python SDK script to enable the Appli
     
     Below is the screenshot showing the output of the above command line. 
     
-    Full output of the above command is in the following file **OUT.01.logs.py.txt** attachet to the project.
+    Full output of the above command is in the **OUT.01.logs.py.txt** file attachet to the project.
 
     ![alt text](screenshots/4.2_Script_run_logs.py_1.png)
     
@@ -177,10 +177,10 @@ Once the Best model is deployed we can run Python SDK script to enable the Appli
 
 In this step we consume the deployed model using Swagger using the following steps:
 
-    - Download the **swagger.json** file
-    - Run the **swagger.sh** and serve.py scripts
-    - Interact with the swagger instance running with the documentation for the HTTP API of the model.
-    - Display the contents of the API for the model
+- Download the **swagger.json** file from Azure ML Studio **model-deploy** endpoint
+- Run the **swagger.sh** and serve.py scripts
+- Interact with the swagger instance running with the documentation for the HTTP API of the model.
+- Display the contents of the API for the model
 
 The **swagger.sh** script downloads the latest Swagger container and it will run it on port 85. The script is executed as follows:
 
