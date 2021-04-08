@@ -44,11 +44,24 @@ The following steps will be performed as part of the project:
 ### **Step 1 - Authentication**
 
 I am using the Lab provided by Udacity and hence the authentication step has already been performed on my behalf. 
+
 This step requires authorization to create a security principal.
 
 ## **Create a new AutoML run**
 
 ### **Step 2 - Automated ML Experiment**
+
+In this step, we create an experiment using Automated ML, configure a compute cluster, and use that cluster to run the experiment.
+The steps are performed in Jupyter notebook and include:
+
+    - Create an Experiment in an existing Workspace.
+    - Create or Attach existing AmlCompute to a workspace.
+    - Define data loading in a TabularDataset.
+    - Configure AutoML using AutoMLConfig.
+    - Use AutoMLStep
+    - Train the model using AmlCompute
+    - Explore the results.
+
 
 - **“Registered Datasets” in ML Studio shows "Bankmarketing" dataset available**
 
