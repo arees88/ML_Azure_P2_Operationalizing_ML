@@ -154,6 +154,8 @@ Now that the Best model is deployed, we will run Python SDK script to enable the
     python logs.py
     ```
     
+    Below is the screenshot showing the output of the above command line. 
+    
     Full output of the above command is in the following file **OUT.01.logs.py.txt** attachet to the project.
 
     ![alt text](screenshots/4.2_Script_run_logs.py_1.png)
