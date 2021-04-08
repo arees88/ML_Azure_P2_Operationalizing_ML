@@ -52,6 +52,7 @@ This step requires authorization to create a security principal.
 
 In this step, we create an experiment using Automated ML, configure a compute cluster, and use that cluster to run the experiment.
 The steps are performed in Jupyter notebook and include:
+
     - Create an Experiment in an existing Workspace
     - Create or Attach existing AmlCompute to a workspace
     - Define data loading in a TabularDataset
@@ -62,7 +63,8 @@ The steps are performed in Jupyter notebook and include:
 
 - **“Registered Datasets” in ML Studio shows "Bankmarketing" dataset available**
 
-    After the AutoML experiment has completed we can see that the Bankmarketing Dataset has been created as expected:
+    After the AutoML experiment has completed we can see that the **Bankmarketing Dataset** has been created as expected:
+
 
     ![alt text](screenshots/2.1_Bankmarketing_dataset_available_1.png)
 
