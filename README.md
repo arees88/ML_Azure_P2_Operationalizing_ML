@@ -72,7 +72,8 @@ The steps are performed in Jupyter notebook and include:
 
 - **The experiment is shown as completed**
 
-The AutoML experiment shows in the Azure ML Studio as completed. It run for 44 minutes and identified the Best model.
+    The AutoML experiment shows in the Azure ML Studio as completed. It run for 44 minutes and identified the Best model.
+
 
     ![alt text](screenshots/2.2_Experiment_completed_1.png)
     
@@ -80,7 +81,8 @@ The AutoML experiment shows in the Azure ML Studio as completed. It run for 44 m
     
 - **Best model**
 
-Here are the details of the Best Model which was identified as VotingEnsemble with AUC 0.947:
+    Here are the details of the Best Model which was identified as **VotingEnsemble** with 0.947 AUC:
+
     
     ![alt text](screenshots/2.3_Best_model_1.png)
     
