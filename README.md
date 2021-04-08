@@ -50,7 +50,8 @@ This step requires authorization to create a security principal.
 
 ### **Step 2 - Automated ML Experiment**
 
-In this step, we create an experiment using Automated ML, configure a compute cluster, and use that cluster to run the experiment.
+In this step we create an experiment using Automated ML, configure a compute cluster, and use that cluster to run the experiment.
+
 The steps are performed in Jupyter notebook and include:
 
     - Create an Experiment in an existing Workspace
@@ -63,7 +64,7 @@ The steps are performed in Jupyter notebook and include:
 
 - **“Registered Datasets” in ML Studio shows "Bankmarketing" dataset available**
 
-    After the AutoML experiment has completed we can see that the **Bankmarketing Dataset** has been created as expected:
+    After the AutoML experiment has completed the **Bankmarketing Dataset** has been created as expected:
 
 
     ![alt text](screenshots/2.1_Bankmarketing_dataset_available_1.png)
@@ -72,13 +73,13 @@ The steps are performed in Jupyter notebook and include:
 
 - **The experiment is shown as completed**
 
-    The AutoML experiment shows in the Azure ML Studio as completed. It run for 44 minutes and identified the Best model.
+    The AutoML experiment shows in the Azure ML Studio as completed. It the experiment run for 44.5 minutes.
 
 
     ![alt text](screenshots/2.2_Experiment_completed_1.png)
     
 
-    The Best model has been identified as **VotingEnsemble** with **0.947** AUC:
+    The AutoML experiment identified the Best model which as **VotingEnsemble** with **0.947** AUC:
 
     
     ![alt text](screenshots/2.2_Experiment_completed_2.png)
@@ -90,6 +91,10 @@ The steps are performed in Jupyter notebook and include:
 
     
     ![alt text](screenshots/2.3_Best_model_1.png)
+
+
+    The Best model is ready for deployment:
+
     
     ![alt text](screenshots/2.3_Best_model_2.png)
     
@@ -97,6 +102,14 @@ The steps are performed in Jupyter notebook and include:
 ## **Deploy a model and consume a model endpoint via an HTTP API**
 
 ### **Step 3 - Deploy the best model**
+
+    In this stem the best model is deployed using the following setup:
+    
+   
+    Name: **model-deploy**
+    Desc: **Best model deployment**
+    Compute type: **Azure Container Instance**
+    Enable authentication: **ON**
 
 - **Deploy the best model**
 
