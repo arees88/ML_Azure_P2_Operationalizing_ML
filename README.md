@@ -79,14 +79,14 @@ The steps are performed in Jupyter notebook and include:
     ![alt text](screenshots/2.2_Experiment_completed_1.png)
     
 
-    The AutoML experiment identified the Best model which as **VotingEnsemble** with **0.947** AUC:
+    The AutoML experiment identified the Best model which is **VotingEnsemble** with **0.947** AUC:
 
     
     ![alt text](screenshots/2.2_Experiment_completed_2.png)
     
 - **Best model**
 
-    Here are the details of the Models that were included in the AutoML experiment run.
+    Here are the details of the Models that were included in the AutoML run.
     The Best model **VotingEnsemble** is first on the list:
 
     
@@ -104,8 +104,7 @@ The steps are performed in Jupyter notebook and include:
 ### **Step 3 - Deploy the best model**
 
     In this stem the best model is deployed using the following setup:
-    
-   
+
     Name: **model-deploy**
     Desc: **Best model deployment**
     Compute type: **Azure Container Instance**
