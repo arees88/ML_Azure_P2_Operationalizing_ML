@@ -236,12 +236,11 @@ In this optional step we run the Apache Benchmark ab command against the HTTP AP
 
 - **Apache Benchmark (ab) runs against the HTTP API using authentication keys to retrieve performance results. (optional)**
 
-    Make sure the Apache Benchmark command-line tool is installed and available in the path
+    Make sure the Apache Benchmark command-line tool is installed and available in the path:
 
     ![alt text](screenshots/6.2_Apache_Benchmark_ab_available.png)
     
-    Replace the key and URI in the benchmark.sh script.
-    The URI and the key can be found in the Details tab of **model-deploy** endpoint above the Swagger URI.
+    Replace the key and URI in the benchmark.sh script using Details tab of **model-deploy** endpoint:
     
     ![alt text](screenshots/6.2_Script_edit_benchmark.sh.png)
     
@@ -260,6 +259,9 @@ In this optional step we run the Apache Benchmark ab command against the HTTP AP
     ![alt text](screenshots/6.2_Script_run_benchmark.sh_2.png)
 
 ## **Create and publish a pipeline**
+
+For this part of the project we use the Jupyter Notebook. 
+We are using the same keys, URI, dataset, cluster, and model names as in previous part. 
 
 ### **Step 7 - Create and publish a pipeline**
 
