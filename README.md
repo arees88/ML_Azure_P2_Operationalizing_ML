@@ -28,7 +28,6 @@ Once all the steps are completed, a short screencast will be created to document
 ![image](https://user-images.githubusercontent.com/60096624/112736915-53bc4300-8f4e-11eb-8637-06e2bb16b920.png)
 
 ## **Key Steps**
-*TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
 
 The following steps will be performed as part of the project:
 
@@ -308,7 +307,7 @@ The screencast shows the entire process of the working ML application, including
 
 Video is available at the following link:  https://www.youtube.com/watch?v=aglqDK0D_nA
 
-## **Future Work Suggestions**
+## **Future Suggestions**
 
 Here are some suggestions how to improve the project in the future:
 
