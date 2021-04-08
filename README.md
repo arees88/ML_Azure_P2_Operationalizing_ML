@@ -215,6 +215,11 @@ python serve.py
     
 ### **Step 6 - Consume model endpoints**
 
+Once the model is deployed we use the **endpoint.py** script to interact with the trained model. 
+First we need to modify the script to set the scoring_uri and the key to match the key for the service and the URI that was generated after deployment.
+
+The URI can be found in the Details tab of the  **model-deploy** endpoint above the Swagger URI.
+
 - **The endpoint.py script runs against the API producing JSON output from the model**
 
     ![alt text](screenshots/6.1_Script_edit_endpoint.py.png)
@@ -223,11 +228,31 @@ python serve.py
     
 ### **Step 6 - Benchmark the endpoint using Apache bench**
 
+In this optional step we run the Apache Benchmark ab command against the HTTP API using following steps:
+
+- Make sure the Apache Benchmark command-line tool is installed and available in the path
+- Replace the key and URI in the benchmark.sh script
+- Run the benchmark.sh script
+
 - **Apache Benchmark (ab) runs against the HTTP API using authentication keys to retrieve performance results. (optional)**
+
+    Make sure the Apache Benchmark command-line tool is installed and available in the path
 
     ![alt text](screenshots/6.2_Apache_Benchmark_ab_available.png)
     
+    Replace the key and URI in the benchmark.sh script
+    
     ![alt text](screenshots/6.2_Script_edit_benchmark.sh.png)
+    
+    Run the benchmark.sh script using command:
+    
+    ```
+    python benchmark.sh
+    ```
+            
+    Below is the screenshot showing the output of the above command line. 
+    
+    The full output of the above command is in the **OUT.03.benchmark.sh.txt** file attachet to the project.
     
     ![alt text](screenshots/6.2_Script_run_benchmark.sh_1.png)
     
