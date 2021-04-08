@@ -73,7 +73,7 @@ The steps are performed in Jupyter notebook and include:
 
 - **The experiment is shown as completed**
 
-    The AutoML experiment shows in the Azure ML Studio as completed. It the experiment run for 44.5 minutes.
+    The AutoML experiment shows in the Azure ML Studio as completed. The experiment run for 44.5 minutes.
 
 
     ![alt text](screenshots/2.2_Experiment_completed_1.png)
